@@ -1,0 +1,23 @@
+<span id="signInText" class="button">Sign In</span>
+
+<style>
+.button {
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+</style>
+
+<script>
+document.getElementById("signInText").addEventListener("click", function() {
+    window.location.href = "signin.html";
+});
+</script>
